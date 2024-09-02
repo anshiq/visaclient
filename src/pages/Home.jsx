@@ -1,6 +1,4 @@
-import { useState } from "react";
 import CollapsibleFAQ from "../components/CollapsibleFAQ";
-
 export default function Home() {
   const FaqQuestions = [
     {

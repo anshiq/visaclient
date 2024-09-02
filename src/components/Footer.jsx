@@ -9,7 +9,7 @@ const Footer = () => {
                 <a href="/" className="">
                   {" "}
                   <img
-                    src="/logo.avif"
+                    src="https://visaontime.co/logo.avif"
                     alt="Visa On Time Logo"
                     className="w-48  desktop:w-60"
                   />
@@ -27,22 +27,14 @@ const Footer = () => {
               <p className="hover:text-[#0088ff] hover:underline">
                 <a href="/#Procedure">Procedure</a>
               </p>
-              <p className="hover:text-[#0088ff] hover:underline">
+             
+            </div>
+            <div className="space-y-2">
+            <p className="hover:text-[#0088ff] hover:underline">
                 <a href="/#FAQ">FAQs</a>
               </p>
               <p className="hover:text-[#0088ff] hover:underline">
                 <a href="/#AboutUs">About Us</a>
-              </p>
-            </div>
-            <div className="space-y-2">
-              <p className="hover:text-[#0088ff] hover:underline">
-                <a href="/terms-conditions">Terms and Conditions</a>
-              </p>
-              <p className="hover:text-[#0088ff] hover:underline">
-                <a href="/privacy">Privacy Policy</a>
-              </p>
-              <p className="hover:text-[#0088ff] hover:underline">
-                <a href="/blog">Blogs</a>
               </p>
             </div>
           </div>
@@ -53,21 +45,21 @@ const Footer = () => {
               <a className="" href="">
                 <img
                   className="h-7 w-7"
-                  src="/Socials/instagram.avif"
+                  src="https://visaontime.co/Socials/instagram.avif"
                   alt="Visa On Time Instagram"
                 />
               </a>
               <a className="" href="">
                 <img
                   className="mx-5 h-7 w-7"
-                  src="/Socials/facebook.avif"
+                  src="https://visaontime.co/Socials/facebook.avif"
                   alt="Visa On Time Facebook"
                 />
               </a>
               <a className="" href="https://x.com/visaontime">
                 <img
                   className="h-7 w-7"
-                  src="/Socials/twitter.avif"
+                  src="https://visaontime.co/Socials/twitter.avif"
                   alt="Visa On Time Twitter"
                 />
               </a>
