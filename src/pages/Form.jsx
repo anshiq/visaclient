@@ -11,6 +11,7 @@ const Form = () => {
     city: "",
     travelledBefore: "",
   });
+  const [loading,setLoading] = useState(false)
 
   const handleChange = (e) => {
     setData({ ...data, [e.target.name]: e.target.value });
@@ -18,6 +19,7 @@ const Form = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true)
     if (
       data.firstName &&
       data.lastName &&
@@ -26,21 +28,14 @@ const Form = () => {
       data.city &&
       data.travelledBefore
     ) {
-      const emailBody = `
-  <h2>Visa Application Details</h2>
-  <p><strong>First Name:</strong> ${data.firstName}</p>
-  <p><strong>Last Name:</strong> ${data.lastName}</p>
-  <p><strong>Mobile Number:</strong> ${data.mobileNumber}</p>
-  <p><strong>Service:</strong> ${data.service}</p>
-  <p><strong>City:</strong> ${data.city}</p>
-  <p><strong>Travelled Before:</strong> ${data.travelledBefore}</p>
-`;
+     
       try {
-        // await SendEmail({
-        //   toEmail: "anshikthind@gmail.com",
-        //   subject: data.service,
-        //   text: emailBody,
-        // });
+        await SendEmail({
+          toEmail: "anshikthind@gmail.com",
+          subject: data.service,
+          
+          ...data,
+        });
         toast("Form Submitted Succefully, We will Reach you shortly!!", {
             position: "top-right",
             autoClose: 2000,
@@ -62,6 +57,7 @@ const Form = () => {
     } else {
       alert("Please fill all the fields");
     }
+    setLoading(false)
   };
   return (
     <>
@@ -199,7 +195,7 @@ const Form = () => {
             type="submit"
             className="flex justify-center items-center bg-[#EB560D] hover:bg-[#141B52] shadow shadow-orange-500 py-3 rounded-lg w-full font-semibold text-lg text-white transition duration-300"
           >
-            <h1 className="pr-3">Submit </h1>
+            <h1 className="pr-3">{loading?"Loading...":"Submit"} </h1>
           </button>
         </form>
       </div>
