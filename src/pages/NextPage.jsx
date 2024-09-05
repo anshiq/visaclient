@@ -4,7 +4,7 @@ const NextPage = () => {
       <div className="desktop:w-[1700px] mx-auto px-5 md:px-8 lg:px-4 lg:w-[980px] 2xl:w-[1250px] ">
         <div className="mt-10 mb-6 lg:my-20">
           <h1 className=" mb-6 font-bold text-[22px] text-center lg:text-2xl desktop:text-4xl">
-            Welcome to VisaOnTime.co US Visa Services!
+            Welcome to EarlyVisasLots.com US Visa Services!
           </h1>
           <div className="font-medium text-base lg:text-lg">
             <div className="bg-red-700 py-2 px-4 rounded-xl text-white flex  items-center">
@@ -49,7 +49,7 @@ const NextPage = () => {
               </span>
             </p>
             <p className="mt-2 mb-6  lg:leading-8">
-              The total cost of applying a US Visitor Visa with VisaOnTime will
+              The total cost of applying a US Visitor Visa with EarlyVisasLots will
               be <span className="text-textsecondary"> ₹39,999</span>, this also
               includes the official US Visa Fees of{" "}
               <span className="text-textsecondary"> 185$</span>(approx. ₹15,500)

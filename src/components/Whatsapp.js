@@ -1,12 +1,10 @@
 import React from 'react';
 
 const WhatsAppButton = () => {
-  const phoneNumber = "+1234567890"; // Replace with your WhatsApp number
-  const message = "Hello, I'm interested in your products!"; // Optional preset message
 
   const handleClick = () => {
-    const phoneNumber = "+1234567890"; // Replace with your WhatsApp number
-    const message = "Hello, I'm interested in your products!"; // Optional preset message
+    const phoneNumber = "+917009748653"; // Replace with your WhatsApp number
+    const message = "Hello, I'm interested in your Visa Service!"; // Optional preset message
   
     const mobileLink = `whatsapp://send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
     const webLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;

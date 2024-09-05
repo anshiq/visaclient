@@ -9,14 +9,14 @@ const Footer = () => {
                 <a href="/" className="">
                   {" "}
                   <img
-                    src="https://visaontime.co/logo.avif"
+                    src="/logo.png"
                     alt="Visa On Time Logo"
                     className="w-48  desktop:w-60"
                   />
                 </a>
               </div>
               <h1 className="font-semibold">Get your Visas always on time!</h1>
-              <h1 className="">hello@visaontime.co</h1>
+              <h1 className="">info@earlyvisaslots.com</h1>
             </div>
           </div>
           <div className="flex justify-around md:justify-center lg:justify-between font-semibold text-sm desktop:text-lg">
@@ -65,7 +65,8 @@ const Footer = () => {
               </a>
             </div>
             <p className="py-4 text-xs">
-              Copyright © 2023, VisaOnTime by Axon Consultancy
+              Copyright © 2024, earlyvisaslots.com
+
             </p>
           </div>
         </div>

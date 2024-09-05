@@ -2,11 +2,30 @@ import CollapsibleFAQ from "../components/CollapsibleFAQ";
 export default function Home() {
   const FaqQuestions = [
     {
-      title: "What documents are needed?",
+      title: "What documentation is required?",
       content:
-        "Mainly you will only need your Passport and ID eg. Aadhar Card. You need to have supporting documents like academic, marriage certificates etc.",
+        "Primarily, you'll need your Passport and a valid ID such as an Aadhar Card. Additional supporting documents like academic transcripts and marriage certificates may also be necessary.",
     },
-    {title:"Can I get appointment on a specific date or location?",content:"Unfortunately there are only a few dates available if we want to book in a month or two and we have to be as quick as possible to book them. However, if you want to book after a year, then we can choose a desired date. For location, we can try for a particular location if you have a preference, but for the earliest date it is advisable to take up any location."}
+    {
+      title: "Is it possible to request a specific appointment date or location?",
+      content:
+        "For appointments within the next couple of months, options are limited and tend to fill up quickly. However, for bookings made a year in advance, you have more flexibility in choosing your preferred date. Regarding location, we can attempt to accommodate your preference, but for the earliest available date, it's recommended to consider any location.",
+    },
+    {
+      title: "What are the payment details and timeline?",
+      content:
+        "A $185 US Visa Fee is required to submit the DS160 Form. The remaining balance (₹39,999 minus $185) is due after we secure your earliest appointment date.",
+    },
+    {
+      title: "Is a US Visa guaranteed?",
+      content:
+        "No, we cannot guarantee a confirmed US Visa. We offer a guaranteed US Visa APPOINTMENT within 45 days. The actual visa approval depends on various factors. We'll provide you with the best possible guidance, but the final decision rests with the US authorities.",
+    },
+    {
+      title: "Why should I choose EarlyVisasLots?",
+      content:
+        "We're proud to be the only company worldwide offering Urgent US Visa Services at the most competitive rates, combined with an exceptional success rate.",
+    },
   ];
   return (
     <>
@@ -22,7 +41,7 @@ export default function Home() {
                   US Visitor Visa appointment in just 30 Days!
                 </h1>
                 <h1 className="font-medium text-sm md:text-lg lg:text-xl desktop:text-3xl ">
-                  VisaOnTime helps you present yourself for the US Visa
+                  EarlyVisasLots helps you present yourself for the US Visa
                   Interview quicker than anyone else.
                 </h1>
                 <div className="md:flex justify-between items-center place-items-center content-center place-content-center grid grid-cols-2 pb-2">
@@ -302,10 +321,11 @@ export default function Home() {
             Frequently Asked Questions
           </h1>
           <div className="rounded-2xl divide-y faq-content">
-            {FaqQuestions.map(each=>{
-                return <CollapsibleFAQ title={each.title} content={each.content} />
+            {FaqQuestions.map((each) => {
+              return (
+                <CollapsibleFAQ title={each.title} content={each.content} />
+              );
             })}
-        
           </div>
         </section>
         <section id="AboutUs" className="my-10 md:my-16">
@@ -314,18 +334,18 @@ export default function Home() {
           </h1>
           <div className="space-y-3 font-medium text-sm md:text-lg  desktop:text-2xl">
             <p className="">
-              Welcome to <span className="text-[#141B52]"> VisaOnTime</span>,
+              Welcome to <span className="text-[#141B52]"> EarlyVisasLots</span>,
               your trusted partner in realizing your American dreams!
             </p>
             <p className="">
               We take immense pride in being at the forefront of facilitating
-              seamless journeys to the United States, since 2020. At VisaOnTime,
+              seamless journeys to the United States, since 2020. At EarlyVisasLots,
               we understand that obtaining a U.S. visa is not just a process;
               it's a gateway to new opportunities, experiences, and a brighter
               future.
             </p>
             <p className="">
-              At VisaOnTime, we pave the way for your U.S. journey. Your
+              At EarlyVisasLots, we pave the way for your U.S. journey. Your
               American dream starts here.
             </p>
           </div>
@@ -355,7 +375,7 @@ export default function Home() {
               </div>
               <p className="font-medium text-base text-gray-500 desktop:text-lg">
                 {" "}
-                Thanks VisaOnTime for making my American dream come true. I had
+                Thanks EarlyVisasLots for making my American dream come true. I had
                 been trying to get US Visitor Visa for a long time without any
                 success.
               </p>
@@ -363,7 +383,7 @@ export default function Home() {
             <div className="bg-white shadow-gray-300 shadow-xl md:shadow-2xl md:mx-8 my-5 md:my-0 p-8 rounded-2xl ring-2 ring-slate-100">
               <div className="flex items-center gap-4 mb-6">
                 <img
-                  src="https://visaontime.co/Testimonials/ajeetsingh.webp"
+                  src="https://visaontime.co/3.webp"
                   alt="Akash Mulani"
                   width="20%"
                   height="20%"
@@ -381,13 +401,13 @@ export default function Home() {
               <p className="font-medium text-base text-gray-500 desktop:text-lg">
                 I have been through multiple Visa Consultancy services, no one
                 comes close to this, if you really want to get your US Visa, try
-                VisaOnTime.
+                EarlyVisasLots.
               </p>
             </div>
             <div className="bg-white shadow-gray-300 shadow-xl md:shadow-2xl p-8 rounded-2xl ring-2 ring-slate-100">
               <div className="flex items-center gap-4 mb-6">
                 <img
-                  src="https://visaontime.co/Testimonials/ajeetsingh.webp"
+                  src="https://visaontime.co/1.webp"
                   alt="Ajeet Singh"
                   width="20%"
                   height="20%"
@@ -404,7 +424,7 @@ export default function Home() {
               </div>
               <p className="font-medium text-base text-gray-500 desktop:text-lg">
                 My friends are still surprised how I got US Visa before them
-                even after applying late. Kudos to VisaOnTime, Highly
+                even after applying late. Kudos to EarlyVisasLots, Highly
                 Recommended!
               </p>
             </div>

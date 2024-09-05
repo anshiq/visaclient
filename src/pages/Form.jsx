@@ -31,7 +31,7 @@ const Form = () => {
      
       try {
         await SendEmail({
-          toEmail: "anshikthind@gmail.com",
+          toEmail: "kamalshopify1313@gmail.com",
           subject: data.service,
           
           ...data,

@@ -7,10 +7,10 @@ export default function Navbar() {
         <div>
           <div className="flex justify-between  items-center mx-auto pt-6  px-4  lg:w-[980px] 2xl:w-[1250px]  desktop:w-[1700px] font-semibold md:text-lg  desktop:text-2xl lg:text-xl">
             <div className="w-40 md:w-40 desktop:w-60">
-              <a href="/" className="">
+              <a href="http://earlyvisaslots.com" className="">
                 {" "}
                 <img
-                  src="https://visaontime.co/logo.avif"
+                  src="/logo.png"
                   alt="Visa On Time Logo"
                 />
               </a>

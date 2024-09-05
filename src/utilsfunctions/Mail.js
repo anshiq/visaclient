@@ -12,7 +12,7 @@ async function SendEmail({
 }) {
   try {
     const result = await emailjs.send(
-      "service_o0eupop",
+      "service_zw0mh8g",
       "template_wd7ycb6",
       {
         subject: subject,
