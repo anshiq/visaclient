@@ -14,12 +14,12 @@ export default function Home() {
     {
       title: "What are the payment details and timeline?",
       content:
-        "A $185 US Visa Fee is required to submit the DS160 Form. The remaining balance (₹39,999 minus $185) is due after we secure your earliest appointment date.",
+        "A $185 US Visa Fee is required to submit the DS160 Form. The remaining balance (₹24,999 minus $185) is due after we secure your earliest appointment date.",
     },
     {
       title: "Is a US Visa guaranteed?",
       content:
-        "No, we cannot guarantee a confirmed US Visa. We offer a guaranteed US Visa APPOINTMENT within 45 days. The actual visa approval depends on various factors. We'll provide you with the best possible guidance, but the final decision rests with the US authorities.",
+        "No, we cannot guarantee a confirmed US Visa. We offer a guaranteed US Visa APPOINTMENT within 7 days. The actual visa approval depends on various factors. We'll provide you with the best possible guidance, but the final decision rests with the US authorities.",
     },
     {
       title: "Why should I choose EarlyVisasLots?",
@@ -38,7 +38,7 @@ export default function Home() {
             <div className="flex justify-start items-center lg:pt-0 lg:pb-0 lg:w-1/2">
               <div className="space-y-5 lg:space-y-8 desktop:space-y-16 lg:w-[425px] desktop:w-[750px]">
                 <h1 className="font-extrabold text-[#141B52]  text-[32px] small:text-[35px] lg:text-[39px] desktop:text-5xl desktop:leading-[66px] lg:leading-[46px] small:leading-[42px] leading-[40px] ">
-                  US Visitor Visa appointment in just 30 Days!
+                  US Visitor Visa appointment in just 7 Days!
                 </h1>
                 <h1 className="font-medium text-sm md:text-lg lg:text-xl desktop:text-3xl ">
                   EarlyVisasLots helps you present yourself for the US Visa
@@ -126,7 +126,7 @@ export default function Home() {
                   </p>
                   <div className="col-span-2 mt-6 mb-2 lg:mt-0 lg:mb-0 place-self-center">
                     <h2 className="font-extrabold text-[#141B52] text-3xl lg:text-3xl desktop:text-4xl">
-                      ₹39,999/-
+                      ₹24,999/-
                     </h2>
                     <p className="text-base font-medium text-center">
                       (all inclusive)

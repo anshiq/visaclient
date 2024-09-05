@@ -50,7 +50,7 @@ const NextPage = () => {
             </p>
             <p className="mt-2 mb-6  lg:leading-8">
               The total cost of applying a US Visitor Visa with EarlyVisasLots will
-              be <span className="text-textsecondary"> ₹39,999</span>, this also
+              be <span className="text-textsecondary"> ₹24,999</span>, this also
               includes the official US Visa Fees of{" "}
               <span className="text-textsecondary"> 185$</span>(approx. ₹15,500)
             </p>
